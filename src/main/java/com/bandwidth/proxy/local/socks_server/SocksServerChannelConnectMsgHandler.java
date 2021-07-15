@@ -41,7 +41,7 @@ class SocksServerChannelConnectMsgHandler extends ChannelDuplexHandler {
             if (addressType == Socks5AddressType.DOMAIN) {
                 resolveIp(ctx, id);
             } else if (addressType == Socks5AddressType.IPv4) {
-                fire(ctx, request.dstAddr());
+                fire(ctx, request.dstAddr() + ":" + request.dstPort());
             } else {
                 fail(ctx, request);
             }
