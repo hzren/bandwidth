@@ -1,0 +1,10 @@
+{
+  "localSocksPort": "20070",
+  "localHttpPort": "20080",
+  "serverHost": "--服务器公网IP--",
+  "serverPort": "--服务器公网端口--",
+  "secretKey": "--服务器客户端握手token--",
+  "serverBindIp": "--服务器绑定的内网IP，可以直接使用0.0.0.0--",
+  "serverBindPort": "--服务器内网端口--",
+  "dnsList": "208.67.222.222,182.254.116.116,208.67.220.220"
+}
